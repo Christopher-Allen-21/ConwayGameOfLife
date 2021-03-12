@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e282cee1-bfe9-42a3-9794-9633eb4654d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Game-Of-Life-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Game-Of-Life-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodeconway/ConwayGameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodeconway/ConwayGameOfLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodeconway/ConwayGameOfLifeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodeconway/ConwayGameOfLifeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +365,7 @@
       <workItem from="1519668902904" duration="14517000" />
       <workItem from="1615408915032" duration="63000" />
       <workItem from="1615418487114" duration="353000" />
-      <workItem from="1615499364193" duration="6585000" />
+      <workItem from="1615499364193" duration="7142000" />
     </task>
     <servers />
   </component>

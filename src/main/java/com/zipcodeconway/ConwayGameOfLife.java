@@ -40,7 +40,8 @@ public class ConwayGameOfLife {
     public int[][] simulate(Integer maxGenerations) {
         int[][] nextGen = new int[startMatrix.length][startMatrix.length];
 
-        //iterates through once; need to figure out how to do for multiple generations
+        //iterates through once; need to figure out how to do for multiple generations; something to do w/ copy and zero out
+        //need to update corner check life methods to account for wrap around
         for(int j=0;j<startMatrix.length;j++){
             for(int k=0;k<startMatrix.length;k++){
                 nextGen[j][k] = isAlive(j,k,startMatrix);
@@ -170,7 +171,6 @@ public class ConwayGameOfLife {
         int count = 0;
 
         //cell is top left corner
-        if(row == 0){
             //right
             if(world[row][col+1]==1){
                 count++;
@@ -183,7 +183,6 @@ public class ConwayGameOfLife {
             else if(world[row+1][col]==1){
                 count++;
             }
-        }
         return count;
     }
 
